@@ -1,0 +1,145 @@
+
+def main():
+
+    x = str(input("Введите строковое значение"))
+    tokens = x.split()
+    new_tokens = []
+    
+    
+  
+    for line in tokens:
+        if line[0].islower():
+            line = line.capitalize()
+        new_tokens.append(line)
+    print(new_tokens)
+
+    x2 = " ".join(new_tokens)
+
+    print(x2)
+            
+            
+        
+       
+        
+        
+    
+    
+  
+            
+            
+    
+if __name__ == "__main__":
+  main()
+
+                            
+ 
+                                
+
+                               
+        
+    
+
+    
+     
+
+
+        
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+       
+
+ 
+
+
+ 
+
+
+            
+        
+
+    
+     
+    
+    
+   
+
+     
+   
+    
+   
+                       
+
+
+    
+
+
+
+
+
+    
+
+
+    
+
+    
+
+
+          
+        
+    
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+              
+
+
+
+
+
+
+
+    
+    
+
+ 
+
+
+
+
+
+
+
+    
+
+    
+
